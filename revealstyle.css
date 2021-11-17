@@ -1,0 +1,22 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 70%;
+    font-size: 150px;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50%;
+    font-size: 30px;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
+
+body{
+    background-color: rgb(25, 152, 255);
+}
