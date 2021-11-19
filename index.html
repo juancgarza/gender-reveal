@@ -26,9 +26,10 @@
 <body>
   <div class="container">
     <h1> It's &nbsp a &nbsp . . .</h1>
-    <div class="button">
+    <a href="reveal.html" class="button">
       <button id="demo"></button>
-    </div>
+    </a>
+    
   </div>
   <script>
     // Set the date we're counting down to
@@ -56,7 +57,7 @@
       // If the count down is over, write some text 
       if (distance < 0) {
         clearInterval(x);
-        document.getElementById("demo").innerHTML = "EXPIRED";
+        document.getElementById("demo").innerHTML = "Click me if you can't wait!";
       }
     }, 1000);
     </script>
